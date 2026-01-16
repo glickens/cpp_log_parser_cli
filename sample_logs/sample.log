@@ -1,0 +1,20 @@
+2026-01-15 10:03:21 INFO  AuthService - User login ok
+2026-01-15 10:03:22 INFO  AuthService - User login ok
+2026-01-15 10:03:23 INFO  AuthService - User login ok
+2026-01-15 10:03:24 WARN  Billing     - Slow query detected
+2026-01-15 10:03:25 WARN  Billing     - Slow query detected
+2026-01-15 10:03:26 ERROR Billing     - ORA-12541: TNS no listener
+2026-01-15 10:03:27 ERROR Billing     - ORA-12541: TNS no listener
+2026-01-15 10:03:28 ERROR Billing     - ORA-12541: TNS no listener
+2026-01-15 10:03:29 INFO  Profile     - Profile updated
+2026-01-15 10:03:30 INFO  Profile     - Profile updated
+2026-01-15 10:03:31 DEBUG Cache       - Cache miss
+2026-01-15 10:03:32 DEBUG Cache       - Cache miss
+2026-01-15 10:03:33 DEBUG Cache       - Cache miss
+2026-01-15 10:03:34 INFO  Billing     - Payment posted
+2026-01-15 10:03:35 WARN  Network     - Packet loss detected
+2026-01-15 10:03:36 WARN  Network     - Packet loss detected
+2026-01-15 10:03:37 INFO  Network     - Connection restored
+2026-01-15 10:03:38 ERROR AuthService - Invalid token
+2026-01-15 10:03:39 ERROR AuthService - Invalid token
+2026-01-15 10:03:40 INFO  Billing     - Invoice generated
