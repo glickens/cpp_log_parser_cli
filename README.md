@@ -27,14 +27,24 @@ Optional: show top 10 messages
 
 ./log_parser sample_logs/sample.log --top 10
 
-Output (example)
+**Output** (example)
 
-Total lines: 1200
+## Real output (from sample_logs/sample.log)
 
-INFO: 900 | WARN: 210 | ERROR: 90
+```text
+Summary
+-------
+Total lines: 20
+
+Log levels:
+  INFO: 8
+  WARN: 4
+  ERROR: 5
+  DEBUG: 3
 
 Top messages:
-
-Slow query detected (42)
-
-ORA-12541: TNS no listener (18)
+  1) Cache miss (3)
+  2) ORA-12541: TNS no listener (3)
+  3) User login ok (3)
+  4) Invalid token (2)
+  5) Packet loss detected (2)
