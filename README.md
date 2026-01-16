@@ -19,15 +19,14 @@ This tool supports lines like:
 ```bash
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic -o log_parser src/main.cpp
 
-Run
+## Run
 ./log_parser sample_logs/sample.log
 
-
-Optional: show top 10 messages
+## Optional: show top 10 messages
 
 ./log_parser sample_logs/sample.log --top 10
 
-**Output** (example)
+Output (example)
 
 ## Real output (from sample_logs/sample.log)
 
